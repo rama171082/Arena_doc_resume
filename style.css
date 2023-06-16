@@ -1,0 +1,60 @@
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    }
+    .left-section{
+      background-color: bisque; 
+      /* grid-column: span 1; */
+    }
+    .right-section{
+        background-color: aqua;
+       /* grid-column: span 1/span 2; */
+       
+    }
+    .left-content{
+        padding: 1rem;
+    }
+    .profile-image{
+    margin: auto;
+    display: block; 
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+    }
+    .name{
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: .02px;
+        text-transform: uppercase;
+        padding: 0.8rem;
+    }
+    .designation{
+        font: size 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+    }
+    .description{
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .social-media{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      
+      }
+      .icon img{
+        width: 25px;
+      }
+      .personal-details img{
+           
+        width: 20px;
+      }
+      
